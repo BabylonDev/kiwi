@@ -3,13 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Friendster Profile Clone</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="message">Hello World</h1>
-    <button onclick="changeText()">Click Me</button>
+    <header>
+        <div class="logo">Friendster</div>
+        <nav>
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#friends">Friends</a></li>
+                <li><a href="#messages">Messages</a></li>
+                <li><a href="#settings">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="profile">
+            <div class="profile-header">
+                <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+                <div class="profile-info">
+                    <h2>Kiwi LCLC
+                    <p>"Path To Strength"</p>
+                    <button id="edit-profile">Edit Profile</button>
+                    <button id="add-friend">Add Friend</button>
+                </div>
+            </div>
+            <div class="profile-details">
+                <h3>About Me</h3>
+                <p>Nothing yet... For now</p>
+            </div>
+        </section>
 
-    <script src="script.js"></script>
+        <section id="friends">
+            <h3>Friends List</h3>
+            <ul id="friend-list">
+                <li>
+                    <img src="friend1.jpg" alt="Friend 1" class="friend-pic">
+                    Ryusen <button class="message-btn">Message</button>
+                </li>
+                <li>
+                    <img src="friend2.jpg" alt="Friend 2" class="friend-pic">
+                    Thea <button class="message-btn">Message</button>
+                </li>
+                <li>
+                    <img src="friend3.jpg" alt="Friend 3" class="friend-pic">
+                    Angellyn <button class="message-btn">Message</button>
+                </li>
+                <li>
+                    <img src="friend3.jpg" alt="Friend 3" class="friend-pic">
+                    Damian <button class="message-btn">Message</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Friendster Clone. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
