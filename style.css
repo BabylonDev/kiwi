@@ -6,7 +6,7 @@ button {
   height: 60px;
   width: 120px;
   border-radius: 6px;
-  font-size: 22px;
+  font-size: 15px;
   cursor: pointer;
   margin-right: 8px;
 
@@ -21,14 +21,14 @@ button {
 
     .subscribe-button:hover {
         background-color: rgb(245, 234, 234);
-        color: white;
+        color: rgb(0, 0, 0);
         border-color: black;
     }
 
     .subscribe-button:active {
         background-color: rgb(255, 255, 255);
-        color: white;
-        border-color: none;
+        color: rgb(0, 0, 0);
+        border-color: black;
     }
     
     .join-button {
