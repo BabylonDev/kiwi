@@ -61,6 +61,11 @@ button {
 
     }
     
+    .tweet-button:active {
+        opacity: 0.5;
+    }
+
+
     .request-now {
         background-color: rgb(0, 0, 0);
         color: rgb(245, 245, 245);
