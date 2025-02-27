@@ -1,4 +1,4 @@
-<style>
+style{
 
 button {
 
@@ -54,7 +54,5 @@ button {
         background-color: rgb(103, 216, 69);
         color: rgb(255, 255, 255);
         border-color: rgb(102, 255, 0);
-        
-    
-  }
-</style>
+    }
+}
