@@ -38,6 +38,15 @@ button {
         
     }
 
+    .join-button:hover {
+      opacity: 0.8;
+    }
+     
+    .join-button:active {
+        opacity: 0.5;
+    }
+
+
     .tweet-button {
         background-color: rgb(17, 172, 233);
         color: rgb(245, 245, 245);
