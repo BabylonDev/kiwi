@@ -9,7 +9,7 @@ button {
   font-size: 15px;
   cursor: pointer;
   margin-right: 8px;
-  transition: 0.15;
+  transition: opacity 1s;
 
 }
     
@@ -17,19 +17,22 @@ button {
         
         background-color: rgb(231, 21, 21);
         color: white;
-        border-color:none   
+        border-color:none
+        
     }        
 
     .subscribe-button:hover {
         background-color: rgb(245, 234, 234);
         color: rgb(0, 0, 0);
         border-color: black;
+        opacity: 0.1;
     }
 
     .subscribe-button:active {
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        border-color: black;
+        background-color: rgb(21, 93, 228);
+        color: rgb(11, 224, 65);
+        border-color: rgb(240, 7, 7);
+        opacity: 0.5;
     }
     
     .join-button {
@@ -40,7 +43,7 @@ button {
     }
 
     .join-button:hover {
-      opacity: 0.8;
+        opacity: 0.8;
     }
      
     .join-button:active {
@@ -72,6 +75,15 @@ button {
         color: rgb(245, 245, 245);
         border-color: rgb(0, 0, 0);
        
+    }
+
+    .request-now:hover {
+        opacity: 0.8;
+    }
+
+    .request-now:active {
+        opacity: 0.5;
+
     }
 
     .add-to-cart {
