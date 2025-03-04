@@ -1,108 +1,17 @@
-/* button {
+style>
+      .grid-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 10px;
+          padding: 20px;
+          background-color: #f4f4f4;
+      }
 
-  border: none;
-  border-style: solid;
-  border-width: 1px;
-  height: 60px;
-  width: 120px;
-  border-radius: 6px;
-  font-size: 15px;
-  cursor: pointer;
-  margin-right: 8px;
-  transition: background-color 1s, color 1s;
-  
-}
-    
-    .subscribe-button {
-        
-        background-color: rgb(231, 21, 21);
-        color: white;
-        border-color:none
-        
-    }        
-
-    .subscribe-button:hover {
-        background-color: rgb(245, 234, 234);
-        color: rgb(0, 0, 0);
-        border-color: black;
-        opacity: 0.1;
-        box-shadow: 5px 5px 5px black;
-        transition: box-shadow 0.15s;
-    }
-
-    .subscribe-button:active {
-        background-color: rgb(21, 93, 228);
-        color: rgb(11, 224, 65);
-        border-color: rgb(240, 7, 7);
-        opacity: 0.5;
-    }
-    
-    .join-button {
-        background-color: white;
-        color: blue;
-        border-color: rgb(106, 106, 245);
-        
-    }
-
-    .join-button:hover {
-        opacity: 0.8;
-    }
-     
-    .join-button:active {
-        opacity: 0.5;
-    }
-
-
-    .tweet-button {
-        background-color: rgb(17, 172, 233);
-        color: rgb(245, 245, 245);
-        border-color: rgb(17, 172, 233);
-    
-    }
-
-    .tweet-button:hover {
-        background-color: rgb(245, 245, 245);
-        color: rgb(17, 172, 233);
-        border-color: rgb(245, 245, 245);
-
-    }
-    
-    .tweet-button:active {
-        opacity: 0.5;
-    }
-
-
-    .request-now {
-        background-color: rgb(0, 0, 0);
-        color: rgb(245, 245, 245);
-        border-color: rgb(0, 0, 0);
-        
-    }
-
-    .request-now:hover {
-        opacity: 0.8;
-    }
-
-    .request-now:active {
-        opacity: 0.5;
-
-    }
-
-    .add-to-cart {
-        background-color: rgb(238, 241, 7);
-        color: rgb(0, 0, 0);
-        border-color: rgb(0, 0, 0);
-       
-    }
-
-    .sign-up {
-        background-color: rgb(103, 216, 69);
-        color: rgb(255, 255, 255);
-        border-color: rgb(102, 255, 0);
-    }
-    */
-
-.container {
-    display: grid;
-    grid-template-columns: 50px 50px 50px;
-}
+      .grid-item {
+          background-color: #3498db;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          font-size: 20px;
+          border-radius: 5px;
+      }
