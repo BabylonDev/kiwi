@@ -1,0 +1,28 @@
+body, html {
+    height: 80%;
+}
+.container {
+    height: 100%;
+    width: 80%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.new-row {
+    border: 1px solid black;
+}
+.bordered-div {
+    border: 1px solid black;
+    padding: 10px;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+}
+.bottom-left-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px; 
+    height: auto;
+}
